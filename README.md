@@ -4,7 +4,7 @@ Both tilemaps produce deterministic output via seeds, using perlin noise to gene
 ## python-generator/
 <img src="python-generator-output.png" width="300">
 
-A simple script to produce a tilemap with depth represented by darkness of each pixel, and bright red pixels representing coral placed randomly on tiles of suitable depth.
+A simple script to produce a tilemap with depth represented by darkness of each pixel, and bright red pixels representing coral placed on tiles of suitable depth using a secondary noise function.
 <br><br>
 Usage:
 
