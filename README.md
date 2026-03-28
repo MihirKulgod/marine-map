@@ -17,6 +17,12 @@ or with optional arguments
 
 `python generate_map.py --size 32 --seed 42 --terrain-scale 3 --coral-scale 12 --output output.png`
 
+- size: the size of the resulting square image (in pixels)
+- seed: the seed used in noise functions for generating the map
+- terrain-scale: the scaling of the noise function to produce the map of the ocean floor
+- coral-scale: the scaling of the noise function to produce coral
+- output: the output filepath
+
 ## unity-generator/
 I began to design this before the entry task prompt was altered.
 
